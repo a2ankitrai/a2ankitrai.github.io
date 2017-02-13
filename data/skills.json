@@ -1,0 +1,38 @@
+[
+    {
+        "category":"Java Technologies",
+        "keytechs":["Java SE", "Java EE", "Java FX"]
+    },
+    {
+        "category":"Frameworks",
+        "keytechs":["Spring MVC", "Hibernate"]
+    },
+    {
+        "category":"Servers",
+        "keytechs":["Apache", "Tomcat", "WebLogic", "WebSphere"]
+    },
+    {
+        "category":"Databases",
+        "keytechs":["Oracle", "MySQL", "PostgreSQL"]
+    },
+    {
+        "category":"Client-side Technologies",
+        "keytechs":["HTML", "CSS", "JS", "JQuery", "Angular-JS","Bootstrap", "Foundation"]
+    },
+    {
+        "category":"Build Tools",
+        "keytechs":["Ant", "Maven"]
+    },
+    {
+        "category":"SCM Tools",
+        "keytechs":["SVN", "Git", "Serena Dimensions"]
+    },
+    {
+        "category":"IDE",
+        "keytechs":["Eclipse", "NetBeans"]
+    },
+    {
+        "category":"Testing Tools",
+        "keytechs":["JMeter","JUnit"]
+    }
+]

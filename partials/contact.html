@@ -1,0 +1,107 @@
+
+
+<div class="container">
+    
+     <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">Connect with me
+                    <!--<small>Subheading</small>-->
+                </h1>
+              
+            </div>
+        </div>
+ 
+        <div class="row">
+            <div class="col-md-8">
+                
+                <!-- SHOW ERROR/SUCCESS MESSAGES -->
+                  <div id="messages" ng-show="message" class="alert alert-success alert-dismissible"  role="alert">
+                     <p class="text-success"> 
+                        <span ng-bind="message" class="text-success"></span>
+                     </p>      
+                  </div>
+
+                <form name="contactForm" id="contactForm" ng-submit="processForm(contactForm.$valid)" novalidate>
+                    
+                    <div class="form-group" 
+                         ng-class="{ 'has-error' : contactForm.name.$invalid && !contactForm.name.$pristine }">
+                        <div class="controls">
+                            <label>Full Name:</label>
+                            <input type="text" class="form-control" name="name" id="name" 
+                                   ng-model="formData.name" placeholder="Name" required
+                                   ng-minlength="3" ng-maxlength="20"/>
+                            
+                            <span class="help-block" ng-show="errorName" ng-bind="errorName"></span>
+                            
+                            <div class="error" 
+                                 ng-show="contactForm.name.$invalid && !contactForm.name.$pristine && contactForm.submitted">
+                                
+                                <p ng-show="contactForm.name.$error.required" class="help-block">
+                                    Your name is required.
+                                </p>
+                                <p ng-show="contactForm.name.$error.minlength" class="help-block">
+                                    Your name is required to be at least 3 characters.
+                                </p>
+                                <p ng-show="contactForm.name.$error.maxlength" class="help-block">
+                                   Your name cannot be longer than 20 characters.
+                                </p>
+                            
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group" 
+                         ng-class="{ 'has-error' : contactForm.email.$invalid && !contactForm.email.$pristine}">
+                        <div class="controls">
+                            <label>Email Address:</label>
+                            <input type="email" class="form-control" id="email" name="email" ng-model="formData.email"                                                           placeholder="John@Doe.com" required>
+                            
+                            <span class="help-block" ng-show="errorEmail" ng-bind="errorEmail"></span>
+                            
+                             <div class="error" 
+                                  ng-show="contactForm.email.$invalid && !contactForm.email.$pristine && contactForm.submitted">
+                                
+                                <p ng-show="contactForm.email.$error.required" class="help-block">
+                                    Your email is required.
+                                </p>
+                                <p ng-show="contactForm.email.$error.email" class="help-block">
+                                    That is not a valid email. Please input a valid email.
+                                </p>
+
+                            </div>
+                        
+                        </div>
+                    </div>
+                    
+                    <div class="form-group" 
+                         ng-class="{ 'has-error' : contactForm.message.$invalid && !contactForm.message.$pristine}">
+                        
+                        <div class="controls">
+                            <label>Message:</label>
+                            <textarea rows="10" cols="100" class="form-control" name="message" id="message" 
+                                      ng-model="formData.message" maxlength="999" style="resize:none" 
+                                      required ng-minlength="5" ng-maxlength="900" placeholder="Message">                                                         </textarea>
+                            
+                            <span class="help-block" ng-show="errorMessage" ng-bind="errorMessage"></span>
+                            
+                            <div class="error" 
+                                 ng-show="contactForm.message.$invalid && !contactForm.message.$pristine && contactForm.submitted">
+                                
+                                <p ng-show="contactForm.message.$error.required" class="help-block">Your message is required.</p>
+                                <p ng-show="contactForm.message.$error.minlength" class="help-block">Your message is too short.</p>
+                                <p ng-show="contactForm.message.$error.maxlength" class="help-block">Woah! control yourself dear.</p>
+                                
+                            </div>
+                            
+                        </div>
+                    </div>
+                   
+                    <button type="submit"  class="btn btn-primary">Send Message</button>
+                    
+                </form>
+            </div>
+
+        </div>
+        <!-- /.row -->
+    
+</div>

@@ -1,0 +1,19 @@
+/**
+    Custom fonts used in the website
+**/
+
+
+@font-face {
+    font-family: alkaline;
+    src: url('../fonts/Alkaline.ttf'); 
+    }
+
+@font-face {
+    font-family: chernobyl;
+    src: url('../fonts/28_Days_Later.ttf'); 
+    }
+
+@font-face {
+    font-family: alley;
+    src: url('../fonts/Alley-Oop.ttf'); 
+    }

@@ -1,0 +1,38 @@
+[
+    {
+        "age": 0, 
+        "id": "none", 
+        "imageUrl": "img/carousal_1.jpg", 
+        "caption": "Ankit Rai"
+    },
+    {
+        "age": 1, 
+        "id": "none", 
+        "imageUrl": "img/carousal_2.jpg", 
+        "caption": "Ankit Rai"
+    },
+    {
+        "age": 2, 
+        "id": "none", 
+        "imageUrl": "img/carousal_3.jpg", 
+        "caption": "Ankit Rai"
+    },
+    {
+        "age": 3, 
+        "id": "none", 
+        "imageUrl": "img/carousal_4.jpg", 
+        "caption": "Ankit Rai"
+    },
+    {
+        "age": 4, 
+        "id": "none", 
+        "imageUrl": "img/carousal_5.jpg", 
+        "caption": "Ankit Rai"
+    },
+    {
+        "age": 5, 
+        "id": "none", 
+        "imageUrl": "img/carousal_6.jpg", 
+        "caption": "Ankit Rai"
+    }
+]

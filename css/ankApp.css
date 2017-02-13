@@ -1,0 +1,51 @@
+/*!
+ * ankApp.css
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+/* Global Styles */
+
+.nav, .pagination, .carousel, .panel-title a { cursor: pointer; }
+
+.alignCentral{
+    float: none;
+    display: inline-block;
+}
+
+#slides_control img{
+    margin:auto;
+    width: 100%;
+    height: auto;
+    max-height: 720px;
+    max-width: 100%;
+  /*  background-size: cover;*/
+}
+
+#slides_control {
+    width: 100%;
+    background-size: cover;
+    background-position: left;
+}
+
+ .links{
+    color: #FF0000;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.navbar-inverse .navbar-nav > li > a{
+    color: white;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover {
+     color: #afefef;
+}
+
+.carousel-indicators li , .carousel-indicators .active{
+    width: 15px;
+    height: 16px;
+}
+

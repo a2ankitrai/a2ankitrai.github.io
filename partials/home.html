@@ -1,0 +1,13 @@
+<!-- Header Carousel -->
+
+<div id="slides_control">
+        <carousel interval="myInterval" disable-ng-animate>
+            <slide ng-repeat="image in carouselImages" active="image.active">
+                <img ng-src="{{image.imageUrl}}" style="background-size: cover;">
+            </slide>
+        </carousel>
+    </div>
+
+    
+
+    
