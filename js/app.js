@@ -27,7 +27,7 @@ var ankApp = angular.module('ankApp', [
         controller:'ProfileCtrl'
       }).
     when('/contact', {
-        templateUrl: 'partials/contact_revenge.html',
+        templateUrl: 'partials/contact.html',
         controller:'contactCtrl'
       }). 
     when('/revenge', {
