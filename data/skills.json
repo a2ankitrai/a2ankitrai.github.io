@@ -1,11 +1,11 @@
 [
     {
-        "category":"Java Technologies",
-        "keytechs":["Java SE", "Java EE", "Java FX"]
+        "category":"Programming Languages",
+        "keytechs":["Java", "JavaScript", "Kotlin"]
     },
     {
         "category":"Frameworks",
-        "keytechs":["Spring MVC", "Hibernate"]
+        "keytechs":["Spring MVC", "Spring Boot", "Hibernate","Angular 2+", "Polymer"]
     },
     {
         "category":"Servers",
@@ -13,26 +13,26 @@
     },
     {
         "category":"Databases",
-        "keytechs":["Oracle", "MySQL", "PostgreSQL"]
+        "keytechs":["Oracle", "MySQL", "PostgreSQL", "MongoDB"]
     },
     {
         "category":"Client-side Technologies",
-        "keytechs":["HTML", "CSS", "JS", "JQuery", "Angular-JS","Bootstrap", "Foundation"]
+        "keytechs":["HTML", "CSS", "JQuery", "Bootstrap", "Foundation"]
     },
     {
         "category":"Build Tools",
-        "keytechs":["Ant", "Maven"]
+        "keytechs":["Gradle", "Maven"]
     },
     {
         "category":"SCM Tools",
         "keytechs":["SVN", "Git", "Serena Dimensions"]
     },
     {
-        "category":"IDE",
-        "keytechs":["Eclipse", "NetBeans"]
+        "category":"Cloud Configuration - Amazon Web Services",
+        "keytechs":["EC2", "ELB", "RDS", "SES", "Route 53"]
     },
     {
         "category":"Testing Tools",
-        "keytechs":["JMeter","JUnit"]
+        "keytechs":["JMeter","JUnit", "TestNG"]
     }
 ]
