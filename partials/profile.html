@@ -1,6 +1,6 @@
 
     <div class="container">
-        
+
         <!-- Page Heading/Breadcrumbs -->
         <div class="row">
             <div class="col-lg-12">
@@ -9,65 +9,85 @@
                 </h1>
             </div>
         </div>
-    
-            
+
+
          <!-- Profile 1 -->
         <div class="row">
-            
-            <div class="col-md-8"> 
-                 
+
+            <div class="col-md-8">
+
                 <form class="form-search">
                     <h3>TECHNOLOGIES
                         <span  class="pull-right">
                             <input type="text" class="form-control" placeholder="Search" ng-model="query" size="16">
-                        </span> 
-                    </h3>     
-                </form>	
-             
+                        </span>
+                    </h3>
+                </form>
+
                 <table class="table table-striped table-hover">
                     <tbody>
                         <tr class="skillAnimate" ng-repeat="skill in skills | filter:query">
                             <td>
                                 <span class="label label-info" ng-bind="skill.category" style="font-size:13px;"></span>
                             </td>
-                            <td>                                
-                                <span ng-repeat="tech in skill.keytechs | skillsFilter:query:skill.category" 
+                            <td>
+                                <span ng-repeat="tech in skill.keytechs | skillsFilter:query:skill.category"
                                       ank-repeat-delimiter=","
                                        class="skillAnimate">
                                     {{tech}}
                                 </span>
                             </td>
                         </tr>
-                        
+
                     </tbody>
-                </table>    
-            
+                </table>
+
             </div>
         </div>
-        
+
         <!-- /.row -->
-        <hr>    
-        
+        <hr>
+
         <!-- Profile 2 -->
         <div class="row">
-                
+
         <div class="col-md-8">
                 <h3>WORK EXPERIENCE</h3>
-				
+
+        <div>
+              <h4>PayPal <small>Jul 2017 - Present</small></h4>
+                        <p>At PayPal, I have worked with the Merchant and Payment Services where I have actively contributing towards the development and enhancement of various microservices.</p>
+        </div>
+
+
 				<div>
-                    <h4>Eaton <small>Jan 2016 - Present</small></h4>
-                <p>At Eaton, I am developing various Angular JS and Polymer based applications that communicate with Eaton’s electrical devices and remotely perform configurations on them.</p>
-                </div>
-				
+                    <h4>Eaton <small>Jan 2016 - Jul 2017</small></h4>
+                <p>At Eaton, I have developed various Angular JS and Polymer based applications that communicate with Eaton’s electrical devices and remotely perform configurations on them.</p>
+
+
+                <ul>
+                  <li>
+                  PXG Dashboard is an Angular JS application developed to communicate with Eaton’s electrical devices.
+                  </li>
+
+                  <li>
+                  Developed Configuration Tool module altering the existing implementation from Python to JS which reduced the data access and process time from devices by 40%.
+                  </li>
+
+                  <li>
+                  Implemented an Expression Evaluator API extending Dijkstra’s two stack algorithm to support ternary conditions and unary operations.
+                  </li>
+                </ul>
+        </div>
                 <div>
                     <h4>Amdocs <small>May 2015 - Jan 2016</small></h4>
                 <p>At Amdocs, I was responsible for providing level three support to mission critical BSS applications for telecom domain.</p>
 				<ul>
 				<li>Refactored java based legacy code to improve design, performance and remove code duplicity.</li>
 				<li>Developed procedure analyzer application which gave visual representation of the database procedure workflows resulting in reduced analysis time and better maintenance.</li>
-				</ul>				
+				</ul>
                 </div>
-            
+
                 <div>
                     <h4>Tata Consultancy Services <small>Dec 2012 - Apr 2015</small></h4>
                     <p>As a developer at TCS, I was responsible for developing and architecting web applications while working with other developers to build technical solutions & complete projects to budgetary and quality requirements.</p>
@@ -78,34 +98,34 @@
                         <li>
                             Designed and implemented a large portion of the front-end framework of the application.
                         </li>
-                        <li> 
-                            Worked closely with other team members to plan, design and develop robust solutions in a timely manner. 
+                        <li>
+                            Worked closely with other team members to plan, design and develop robust solutions in a timely manner.
                         </li>
                         <li>
-                            Consulted regularly with customers on project status, proposals and technical issues. 
+                            Consulted regularly with customers on project status, proposals and technical issues.
                         </li>
                     </ul>
-                </div>    
+                </div>
             </div>
         </div>
         <!-- /.row -->
         <hr>
-       
+
         <!-- Profile 3 -->
         <div class="row">
             <div class="col-md-8">
                 <h3>CERTIFICATIONS</h3>
                 <h4>Oracle Certified Professional Java SE 6 Programmer, 2010</h4>
-                <p>Scored 100% in the certification exam</p>   
+                <p>Scored 100% in the certification exam</p>
             </div>
         </div>
         <!-- /.row -->
 
         <hr>
-        
+
         <!-- Profile 4 -->
         <div class="row">
-           
+
             <div class="col-md-8">
                 <h3>EDUCATION</h3>
                 <h4>Bachelors. Computer Science & Engineering</h4>
@@ -114,24 +134,24 @@
         </div>
         <!-- /.row -->
         <hr>
-       
-         
+
+
         <div class="row">
             <div class="col-md-6" align="center">
                 <h3>Are you Hiring?</h3>
-                <a target="_self" style="width:185px;" class="btn  btn-info btn-lg active" 
+                <a target="_self" style="width:185px;" class="btn  btn-info btn-lg active"
                    ng-href="data/Resume_AnkitRai.pdf" download="Resume_AnkitRai.pdf">
                                 Download Resume
                 </a>
-                   
+
             </div>
             <div class="col-md-6" align="center">
                 <h3>Got a project you would like me to work on?</h3>
-                <a href="#/contact" style="width:185px;" class="btn  btn-info btn-lg active">Contact</a>                   
+                <a href="#/contact" style="width:185px;" class="btn  btn-info btn-lg active">Contact</a>
             </div>
         </div>
         <!-- /.row -->
 
         <hr>
     </div>
-    <!-- /.container --> 
+    <!-- /.container -->
